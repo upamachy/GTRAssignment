@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZoaekAMRzljhEB5raKo2/jN3kCekVRlgjMzyhmTxsF893j/t++01hIyDLxJDiIaISdrCeCJ03jySSbpWlBcymA==",
+  "dgSpecHash": "cQrX/m2OMdSTAbRm7njvb0m5uGGNr+GFUfpSzS8kTZ50oQ8YiTdRWQ/L2SlmU7721SlyB/KyKy0+LUTHbFzrGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\GTRAssignment\\GTRAssignment\\GTRAssignment.csproj",
+  "projectFilePath": "C:\\Users\\Upama Chowdhury\\source\\repos\\GTRAssignment\\GTRAssignment\\GTRAssignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -14,9 +14,11 @@ namespace GTRAssignment.RepositoryData.Repository
             _context = context;
         }
 
-        public Task Add(TEntity entity)
+        public async Task<TEntity> Add(TEntity entity)
         {
-            throw new NotImplementedException();
+            await _context.Set<TEntity>().AddAsync(entity);
+            _context.SaveChanges();
+            return entity;
         }
 
         public Task AddRange(IEnumerable<TEntity> entities)
@@ -29,9 +31,9 @@ namespace GTRAssignment.RepositoryData.Repository
             throw new NotImplementedException();
         }
 
-        public Task<List<TEntity>> GetAll()
+        public async Task<List<TEntity>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _context.Set<TEntity>().ToListAsync();
         }
 
         public Task<TEntity> GetById(int id)
@@ -53,5 +55,7 @@ namespace GTRAssignment.RepositoryData.Repository
         {
             throw new NotImplementedException();
         }
+
+       
     }
 }

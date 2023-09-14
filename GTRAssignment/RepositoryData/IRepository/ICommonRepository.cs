@@ -7,7 +7,7 @@ namespace GTRAssignment.RepositoryData.IRepository
         Task<TEntity> GetById(int id);
         Task<List<TEntity>> GetAll();
         Task<IEnumerable<TEntity>> Find(Expression<Func<TEntity, bool>> predicate);
-        Task Add(TEntity entity);
+        Task<TEntity> Add(TEntity entity);
         Task AddRange(IEnumerable<TEntity> entities);
         Task Update(TEntity entity);
         Task Remove(TEntity entity);

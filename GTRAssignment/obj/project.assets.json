@@ -3729,11 +3729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\GTRAssignment\\GTRAssignment\\GTRAssignment.csproj",
+      "projectUniqueName": "C:\\Users\\Upama Chowdhury\\source\\repos\\GTRAssignment\\GTRAssignment\\GTRAssignment.csproj",
       "projectName": "GTRAssignment",
-      "projectPath": "C:\\Users\\Upama Chowdhury\\source\\GTRAssignment\\GTRAssignment\\GTRAssignment.csproj",
+      "projectPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\GTRAssignment\\GTRAssignment\\GTRAssignment.csproj",
       "packagesPath": "C:\\Users\\Upama Chowdhury\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Upama Chowdhury\\source\\GTRAssignment\\GTRAssignment\\obj\\",
+      "outputPath": "C:\\Users\\Upama Chowdhury\\source\\repos\\GTRAssignment\\GTRAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Upama Chowdhury\\AppData\\Roaming\\NuGet\\NuGet.Config",
